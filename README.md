@@ -1,5 +1,6 @@
 # SGCN-occupancy-at-wetland-easements
 Data are available to download at: https://www.sciencebase.gov/catalog/item/67f95964d4be022c3e84f405
+DOI for code: https://doi.org/10.5281/zenodo.15299898
 
 01_sp_accumulation_curve.R: Species accumulation curve analysis and visualization for all species and broken down
 	by guild. Excludes likely migratory species.
