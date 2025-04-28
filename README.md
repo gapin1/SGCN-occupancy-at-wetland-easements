@@ -1,6 +1,4 @@
 # SGCN-occupancy-at-wetland-easements
-Occupancy analysis code for the Gapinski et al. 2025 publication in Ornithological Applications: "Stable occupancy of conservation-priority birds amid community shifts across 16 years on Iowa wetland easements."
-
 Data are available to download at: https://www.sciencebase.gov/catalog/item/67f95964d4be022c3e84f405
 
 01_sp_accumulation_curve.R: Species accumulation curve analysis and visualization for all species and broken down
@@ -33,8 +31,7 @@ Data are available to download at: https://www.sciencebase.gov/catalog/item/67f9
 03_occupancy_visualization.R: Plot estimates from single-species occupancy models. Also includes code to extract
 	alpha and beta values from models that we included in a table in supplemental materials.
 	INPUT FILES:
-	1. 20 RDS files containing top models for each species. For convenience, we have included our files in the
-	   "top_models" folder because models can be cumbersome to run.
+	1. 20 RDS files containing top models for each species based on model selection criteria.
 	2. covs_combined.csv: covariate data corresponding with bird survey locations, including year, time period,
 	   ordinal date, observer, percent woody plant cover, easement age, cluster ID, and number of points
 	   surveyed.
